@@ -1,0 +1,12 @@
+# Ignore Terraform plugin binaries and caches
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+
+# Sensitive or local-only files
+*.pem
+*.key
+*.tfvars
+*.log
+*.bak
